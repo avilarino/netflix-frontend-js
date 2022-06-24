@@ -1,20 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.c-white {
+    color: white
+}
+
 body {
+    background-color: black !important;
+    color: white !important;
     font-family: 'Bebas Neue', cursive !important;
 }
 
 nav {
-    background-color: black;
+    background-color: black !important;
+    color: white !important;
+}
+
+h2 {
+    padding: 50px
 }
 
 .bg-red {
-    background: red !important;
+    background-color: red !important;
     color: white !important;
 }
 
 .bg-transparent {
-    background-color: transparent;
     border: 1px solid white !important;
+    background-color: black !important;
     color: white !important;
+}
+
+#myCarousel {
+    background-color: black !important;
+}
+
+video {
+    width: 100%;
+}
+
+.cards-container {
+    background-color: black !important;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-body {
+    background-color: black !important;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    padding: 50px;
+    background-color: black;
+}
+
+.container-footer {
+    margin: 40px;
+    color: grey
 }
